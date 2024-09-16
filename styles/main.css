@@ -1,0 +1,11 @@
+path {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+    transform-origin: center; /* Asegura que el escalado ocurra desde el centro */
+}
+
+path:hover {
+    transform: scale(1.1); /* Aumenta el tamaño en un 10% */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Añade una sombra para dar efecto de elevación */
+    z-index: 1000; /* Asegura que el país en hover esté sobre otros elementos */
+}
